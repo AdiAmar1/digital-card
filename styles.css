@@ -31,6 +31,8 @@ html {
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  overflow: hidden;
 }
 
 html[dir="rtl"] {
@@ -38,7 +40,8 @@ html[dir="rtl"] {
 }
 
 body {
-  min-height: 100vh;
+  height: 100svh;
+  overflow: hidden;
   font-family:
     "Heebo",
     -apple-system,
